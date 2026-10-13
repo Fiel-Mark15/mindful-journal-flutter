@@ -1,0 +1,37 @@
+name: ios_style_journal
+description: A premium iOS-style personal journal built for CSE101.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.12.0 <4.0.0"
+  flutter: ">=3.44.4"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.9
+  file_selector: ^1.1.0
+  shared_preferences: ^2.5.6
+  path_provider: ^2.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    # Future custom fonts can be declared here when you have the actual .ttf files:
+    # - assets/fonts/
+
+# Only iOS currently has a native runner. Enable other targets when added.
+flutter_launcher_icons:
+  ios: true
+  android: true
+  image_path: "assets/images/app_icon.png"
+  remove_alpha_ios: true
