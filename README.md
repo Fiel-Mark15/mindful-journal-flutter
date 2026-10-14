@@ -1,6 +1,6 @@
 # Mindful Journal — CSE101
 
-An iOS-inspired personal journal for Fiel and Johndee's CSE101 final project. The existing Flutter starter now includes a complete reflection → writing → reading flow with an indigo identity and an editorial writing surface.
+An iOS-inspired personal journal for Fiel Mark Oronos CSE101 final project. The existing Flutter starter now includes a complete reflection → writing → reading flow with an indigo identity and an editorial writing surface.
 
 ## Features
 
